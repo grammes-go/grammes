@@ -24,7 +24,7 @@ import (
 	"go/token"
 	"testing"
 
-	"github.com/northwesternmutual/grammes/query/predicate"
+	"github.com/grammes-go/grammes/query/predicate"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

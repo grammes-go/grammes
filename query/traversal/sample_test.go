@@ -23,7 +23,7 @@ package traversal
 import (
 	"testing"
 
-	"github.com/northwesternmutual/grammes/query/scope"
+	"github.com/grammes-go/grammes/query/scope"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

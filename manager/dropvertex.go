@@ -23,10 +23,10 @@ package manager
 import (
 	"strings"
 
-	"github.com/northwesternmutual/grammes/query/traversal"
-	"github.com/northwesternmutual/grammes/gremerror"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/query"
+	"github.com/grammes-go/grammes/gremerror"
+	"github.com/grammes-go/grammes/logging"
+	"github.com/grammes-go/grammes/query"
+	"github.com/grammes-go/grammes/query/traversal"
 )
 
 type dropQueryManager struct {
@@ -72,7 +72,7 @@ func (v *dropQueryManager) DropVerticesByString(q string) error {
 	if !strings.HasSuffix(q, "drop()") {
 		q += ".drop()"
 	}
-	
+
 	_, err := v.executeStringQuery(q)
 	if err != nil {
 		v.logger.Error("invalid query",

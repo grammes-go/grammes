@@ -23,8 +23,8 @@ package graph
 import (
 	"fmt"
 
-	"github.com/northwesternmutual/grammes/query/cardinality"
-	"github.com/northwesternmutual/grammes/query/datatype"
+	"github.com/grammes-go/grammes/query/cardinality"
+	"github.com/grammes-go/grammes/query/datatype"
 )
 
 // MakePropertyKey create a label for a new edge.

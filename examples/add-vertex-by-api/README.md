@@ -19,7 +19,7 @@ The basics on adding vertices using the `AddAPIVertex` function from a Grammes c
 To run this test you will need a TinkerPop server running and a graph database to connect to locally. This example was tested while using JanusGraph which can be used by locating yourself to the root directory of the Grammes project.
 
 ``` sh
-cd $GOPATH/src/github.com/northwesternmutual/grammes
+cd $GOPATH/src/github.com/grammes-go/grammes
 ```
 
 After locating yourself here then you may change directory to the `/scripts` folder.

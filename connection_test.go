@@ -27,7 +27,7 @@ import (
 	"github.com/google/uuid"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes/gremconnect"
+	"github.com/grammes-go/grammes/gremconnect"
 )
 
 func TestLaunchConnection(t *testing.T) {

@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/northwesternmutual/grammes/query/graph"
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/grammes-go/grammes/query/graph"
+	"github.com/grammes-go/grammes/query/traversal"
 )
 
 // The graph's object to traverse

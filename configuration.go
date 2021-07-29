@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"github.com/grammes-go/grammes/logging"
 )
 
 // ClientConfiguration is the type used for configuring

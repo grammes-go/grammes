@@ -21,7 +21,7 @@
 package traversal
 
 import (
-	"github.com/northwesternmutual/grammes/query/scope"
+	"github.com/grammes-go/grammes/query/scope"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#order-step

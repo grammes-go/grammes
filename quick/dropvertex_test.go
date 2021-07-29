@@ -26,9 +26,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/manager"
+	"github.com/grammes-go/grammes"
+	"github.com/grammes-go/grammes/logging"
+	"github.com/grammes-go/grammes/manager"
 )
 
 func TestDropVertexLabel(t *testing.T) {

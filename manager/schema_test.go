@@ -27,10 +27,10 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/query/cardinality"
-	"github.com/northwesternmutual/grammes/query/datatype"
-	"github.com/northwesternmutual/grammes/query/multiplicity"
+	"github.com/grammes-go/grammes/logging"
+	"github.com/grammes-go/grammes/query/cardinality"
+	"github.com/grammes-go/grammes/query/datatype"
+	"github.com/grammes-go/grammes/query/multiplicity"
 )
 
 func TestAddEdgeLabel(t *testing.T) {

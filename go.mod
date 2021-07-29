@@ -1,16 +1,12 @@
-module github.com/northwesternmutual/grammes
+module github.com/grammes-go/grammes
 
-go 1.13
+go 1.16
 
 require (
-	github.com/google/uuid v1.1.0
-	github.com/gopherjs/gopherjs v0.0.0-20190309154008-847fc94819f9 // indirect
-	github.com/gorilla/websocket v1.4.0
-	github.com/pkg/errors v0.8.1 // indirect
-	github.com/smartystreets/assertions v0.0.0-20190215210624-980c5ac6f3ac // indirect
+	github.com/google/uuid v1.3.0
+	github.com/gorilla/websocket v1.4.2
 	github.com/smartystreets/goconvey v0.0.0-20190306220146-200a235640ff
-	github.com/stretchr/testify v1.3.0 // indirect
-	go.uber.org/atomic v1.3.2 // indirect
-	go.uber.org/multierr v1.1.0 // indirect
-	go.uber.org/zap v1.9.1
+	go.uber.org/atomic v1.9.0 // indirect
+	go.uber.org/multierr v1.7.0 // indirect
+	go.uber.org/zap v1.18.1
 )
