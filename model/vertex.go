@@ -21,7 +21,7 @@
 package model
 
 import (
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 // Vertex maintains pointers to both a set

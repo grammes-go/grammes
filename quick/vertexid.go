@@ -20,7 +20,7 @@
 
 package quick
 
-import "github.com/grammes-go/grammes/query"
+import "gsdev.ninja/grammes/query"
 
 // VertexIDsByQuery will take a query and execute it. Then it will
 // run through and extract all the vertex IDs matching the

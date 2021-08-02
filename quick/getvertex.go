@@ -21,8 +21,8 @@
 package quick
 
 import (
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/query"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/query"
 )
 
 // VerticesByQuery will gather any vertices and return them

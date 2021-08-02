@@ -36,8 +36,8 @@ This object implements the Parameter interfaces used by graph traversals.
 package multiplicity
 
 import (
-	"github.com/grammes-go/grammes/query/cardinality"
-	"github.com/grammes-go/grammes/query/direction"
+	"gsdev.ninja/grammes/query/cardinality"
+	"gsdev.ninja/grammes/query/direction"
 )
 
 // Titan:

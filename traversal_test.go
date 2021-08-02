@@ -25,8 +25,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grammes-go/grammes/query/graph"
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes/query/graph"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 func TestTraversal(t *testing.T) {

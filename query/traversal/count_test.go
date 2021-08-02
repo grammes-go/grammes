@@ -23,8 +23,8 @@ package traversal
 import (
 	"testing"
 
-	"github.com/grammes-go/grammes/query/scope"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/query/scope"
 )
 
 func TestCount(t *testing.T) {

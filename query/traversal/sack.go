@@ -20,7 +20,7 @@
 
 package traversal
 
-import "github.com/grammes-go/grammes/query/operator"
+import "gsdev.ninja/grammes/query/operator"
 
 // http://tinkerpop.apache.org/docs/current/reference/#sack-step
 

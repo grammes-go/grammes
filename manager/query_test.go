@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grammes-go/grammes/gremconnect"
-	"github.com/grammes-go/grammes/logging"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/logging"
 )
 
 // MOCKDIALER

@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/grammes-go/grammes/gremconnect"
-	"github.com/grammes-go/grammes/gremerror"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/gremerror"
 )
 
 var (

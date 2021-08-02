@@ -23,10 +23,10 @@ package grammes
 import (
 	"sync"
 
-	"github.com/grammes-go/grammes/gremconnect"
-	"github.com/grammes-go/grammes/gremerror"
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/manager"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/gremerror"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/manager"
 )
 
 // maxConCurrentMessages determines the size of the request channel.

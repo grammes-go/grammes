@@ -21,9 +21,9 @@
 package quick
 
 import (
-	"github.com/grammes-go/grammes/query/cardinality"
-	"github.com/grammes-go/grammes/query/datatype"
-	"github.com/grammes-go/grammes/query/multiplicity"
+	"gsdev.ninja/grammes/query/cardinality"
+	"gsdev.ninja/grammes/query/datatype"
+	"gsdev.ninja/grammes/query/multiplicity"
 )
 
 // AddEdgeLabel adds the edge label to the

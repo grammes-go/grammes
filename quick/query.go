@@ -21,7 +21,7 @@
 package quick
 
 import (
-	"github.com/grammes-go/grammes/query"
+	"gsdev.ninja/grammes/query"
 )
 
 // ExecuteQuery is used to execute a query

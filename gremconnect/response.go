@@ -23,7 +23,7 @@ package gremconnect
 import (
 	"encoding/json"
 
-	"github.com/grammes-go/grammes/gremerror"
+	"gsdev.ninja/grammes/gremerror"
 )
 
 // Response is the structure representation of

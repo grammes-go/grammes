@@ -21,9 +21,9 @@
 package model
 
 import (
-	"github.com/grammes-go/grammes/gremerror"
+	"gsdev.ninja/grammes/gremerror"
 
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 var newTrav = traversal.NewTraversal

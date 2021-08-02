@@ -1,4 +1,4 @@
-module github.com/grammes-go/grammes
+module gsdev.ninja/grammes
 
 go 1.16
 

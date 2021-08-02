@@ -23,8 +23,8 @@ package traversal
 import (
 	"testing"
 
-	"github.com/grammes-go/grammes/query/cardinality"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/query/cardinality"
 )
 
 func TestProperty(t *testing.T) {

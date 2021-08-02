@@ -21,10 +21,10 @@
 package quick
 
 import (
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/query/graph"
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/query/graph"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 // CustomTraversal is have a custom prefix for your

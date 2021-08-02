@@ -27,8 +27,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/model"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/model"
 )
 
 var testVertex = model.Vertex{

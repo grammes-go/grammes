@@ -23,7 +23,7 @@ package grammes
 import (
 	"encoding/json"
 
-	"github.com/grammes-go/grammes/gremconnect"
+	"gsdev.ninja/grammes/gremconnect"
 )
 
 var (

@@ -23,10 +23,10 @@ package main
 import (
 	"flag"
 
-	"github.com/grammes-go/grammes/logging"
+	"gsdev.ninja/grammes/logging"
 
-	"github.com/grammes-go/grammes/examples/exampleutil"
-	"github.com/grammes-go/grammes/quick"
+	"gsdev.ninja/grammes/examples/exampleutil"
+	"gsdev.ninja/grammes/quick"
 
 	"go.uber.org/zap"
 )

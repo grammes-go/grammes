@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/grammes-go/grammes/gremerror"
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/model"
-	"github.com/grammes-go/grammes/query"
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes/gremerror"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/model"
+	"gsdev.ninja/grammes/query"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 type getVertexQueryManager struct {

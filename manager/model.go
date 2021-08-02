@@ -23,12 +23,12 @@ package manager
 import (
 	"encoding/json"
 
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/model"
-	"github.com/grammes-go/grammes/query"
-	"github.com/grammes-go/grammes/query/cardinality"
-	"github.com/grammes-go/grammes/query/datatype"
-	"github.com/grammes-go/grammes/query/multiplicity"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/model"
+	"gsdev.ninja/grammes/query"
+	"gsdev.ninja/grammes/query/cardinality"
+	"gsdev.ninja/grammes/query/datatype"
+	"gsdev.ninja/grammes/query/multiplicity"
 )
 
 var (

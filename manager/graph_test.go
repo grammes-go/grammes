@@ -25,8 +25,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grammes-go/grammes/gremconnect"
-	"github.com/grammes-go/grammes/logging"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/logging"
 )
 
 func TestSetLogger(t *testing.T) {

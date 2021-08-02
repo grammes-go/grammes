@@ -25,9 +25,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/examples/exampleutil"
-	"github.com/grammes-go/grammes/query/predicate"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/examples/exampleutil"
+	"gsdev.ninja/grammes/query/predicate"
 )
 
 var (

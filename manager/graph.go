@@ -21,8 +21,8 @@
 package manager
 
 import (
-	"github.com/grammes-go/grammes/gremconnect"
-	"github.com/grammes-go/grammes/logging"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/logging"
 )
 
 // GraphQueryManager has all the function related to interacting with the graph.

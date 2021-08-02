@@ -25,9 +25,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/examples/exampleutil"
-	t "github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/examples/exampleutil"
+	t "gsdev.ninja/grammes/query/traversal"
 )
 
 var (

@@ -23,7 +23,7 @@ package model
 import (
 	"encoding/json"
 
-	"github.com/grammes-go/grammes/gremerror"
+	"gsdev.ninja/grammes/gremerror"
 )
 
 // UnmarshalVertexList is a utility to unmarshal a list

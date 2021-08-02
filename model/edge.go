@@ -23,7 +23,7 @@ package model
 import (
 	"errors"
 
-	"github.com/grammes-go/grammes/query/traversal"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 // Edge is the object that builds a

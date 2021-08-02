@@ -26,12 +26,12 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/logging"
-	"github.com/grammes-go/grammes/manager"
-	"github.com/grammes-go/grammes/query/cardinality"
-	"github.com/grammes-go/grammes/query/datatype"
-	"github.com/grammes-go/grammes/query/multiplicity"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/manager"
+	"gsdev.ninja/grammes/query/cardinality"
+	"gsdev.ninja/grammes/query/datatype"
+	"gsdev.ninja/grammes/query/multiplicity"
 )
 
 func TestAddEdgeLabel(t *testing.T) {

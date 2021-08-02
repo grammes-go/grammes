@@ -23,7 +23,7 @@ package traversal
 import (
 	"testing"
 
-	"github.com/grammes-go/grammes/query/predicate"
+	"gsdev.ninja/grammes/query/predicate"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

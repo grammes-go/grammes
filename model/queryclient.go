@@ -20,7 +20,7 @@
 
 package model
 
-import "github.com/grammes-go/grammes/query"
+import "gsdev.ninja/grammes/query"
 
 type queryClient interface {
 	ExecuteQuery(query.Query) ([][]byte, error)

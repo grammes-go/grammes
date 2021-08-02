@@ -23,8 +23,8 @@ package graph
 import (
 	"fmt"
 
-	"github.com/grammes-go/grammes/query/cardinality"
-	"github.com/grammes-go/grammes/query/datatype"
+	"gsdev.ninja/grammes/query/cardinality"
+	"gsdev.ninja/grammes/query/datatype"
 )
 
 // MakePropertyKey create a label for a new edge.

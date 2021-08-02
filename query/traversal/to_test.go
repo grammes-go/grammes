@@ -23,8 +23,8 @@ package traversal
 import (
 	"testing"
 
-	"github.com/grammes-go/grammes/query/direction"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/query/direction"
 )
 
 func TestTo(t *testing.T) {

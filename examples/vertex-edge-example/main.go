@@ -25,8 +25,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/grammes-go/grammes"
-	"github.com/grammes-go/grammes/examples/exampleutil"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/examples/exampleutil"
 )
 
 // This example will create a new client

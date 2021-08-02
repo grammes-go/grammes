@@ -23,7 +23,7 @@ package traversal
 import (
 	"fmt"
 
-	"github.com/grammes-go/grammes/query/scope"
+	"gsdev.ninja/grammes/query/scope"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#count-step
