@@ -39,6 +39,37 @@ type PropertyDetailedValue struct {
 	Type  string      `json:"@type,omitempty"`
 }
 
+// UnmarshalJSON is a wrapper around json.Unmarshal which attempts to
+// cast the default encoding/json number type (float64) to the Go type
+// represented by the PropertyDetailedValue's Type property. As an
+// example, if the Type is "g:Int32", the Value will be an int32.
+func (v *PropertyDetailedValue) UnmarshalJSON(data []byte) error {
+	type wrapper PropertyDetailedValue
+	w := wrapper{}
+	if err := json.Unmarshal(data, &w); err != nil {
+		return err
+	}
+
+	v.Type = w.Type
+
+	if f, ok := w.Value.(float64); ok {
+		// Currently, only the integer (int32) and long (int64) number data types need casting.
+		// See: https://tinkerpop.apache.org/docs/3.4.0/dev/io/#graphson-3d0
+		switch w.Type {
+		case "g:Int32":
+			v.Value = int32(f)
+		case "g:Int64":
+			v.Value = int64(f)
+		default:
+			v.Value = f
+		}
+	} else {
+		v.Value = w.Value
+	}
+
+	return nil
+}
+
 // ValueWrapper will handle storing
 // the correct value into the correct
 // spot in this struct for not confusion.
