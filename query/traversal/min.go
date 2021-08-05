@@ -21,7 +21,7 @@
 package traversal
 
 import (
-	"github.com/northwesternmutual/grammes/query/scope"
+	"gsdev.ninja/grammes/query/scope"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#min-step

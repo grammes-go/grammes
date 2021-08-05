@@ -26,9 +26,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/manager"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/manager"
 )
 
 func TestDropAll(t *testing.T) {

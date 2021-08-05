@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"gsdev.ninja/grammes/logging"
 )
 
 // ClientConfiguration is the type used for configuring

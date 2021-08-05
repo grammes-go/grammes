@@ -24,9 +24,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/examples/exampleutil"
 	"go.uber.org/zap"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/examples/exampleutil"
 )
 
 var (

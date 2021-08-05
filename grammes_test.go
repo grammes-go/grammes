@@ -23,7 +23,7 @@ package grammes_test
 import (
 	"log"
 
-	"github.com/northwesternmutual/grammes"
+	"gsdev.ninja/grammes"
 )
 
 func Example_newClient() {

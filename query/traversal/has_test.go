@@ -24,8 +24,8 @@ import (
 	"go/token"
 	"testing"
 
-	"github.com/northwesternmutual/grammes/query/predicate"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/query/predicate"
 )
 
 func TestHas(t *testing.T) {

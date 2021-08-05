@@ -23,8 +23,8 @@ package graph
 import (
 	"testing"
 
-	m "github.com/northwesternmutual/grammes/query/multiplicity"
 	. "github.com/smartystreets/goconvey/convey"
+	m "gsdev.ninja/grammes/query/multiplicity"
 )
 
 func TestMultiplicity(t *testing.T) {

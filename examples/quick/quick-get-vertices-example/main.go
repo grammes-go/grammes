@@ -23,8 +23,8 @@ package main
 import (
 	"flag"
 
-	"github.com/northwesternmutual/grammes/examples/exampleutil"
-	"github.com/northwesternmutual/grammes/quick"
+	"gsdev.ninja/grammes/examples/exampleutil"
+	"gsdev.ninja/grammes/quick"
 
 	"go.uber.org/zap"
 )

@@ -26,7 +26,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"gsdev.ninja/grammes/logging"
 )
 
 func TestDropVertexLabel(t *testing.T) {

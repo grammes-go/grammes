@@ -23,8 +23,8 @@ package traversal
 import (
 	"testing"
 
-	"github.com/northwesternmutual/grammes/query/scope"
 	. "github.com/smartystreets/goconvey/convey"
+	"gsdev.ninja/grammes/query/scope"
 )
 
 func TestRange(t *testing.T) {

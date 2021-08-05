@@ -20,7 +20,7 @@
 
 package traversal
 
-import "github.com/northwesternmutual/grammes/query/scope"
+import "gsdev.ninja/grammes/query/scope"
 
 // http://tinkerpop.apache.org/docs/current/reference/#max-step
 

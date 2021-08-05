@@ -21,10 +21,10 @@
 package manager
 
 import (
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/gremerror"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/query"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/gremerror"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/query"
 )
 
 // Query handles the querying actions to the server.

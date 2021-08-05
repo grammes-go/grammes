@@ -5,7 +5,7 @@
 This project uses Go modules to manage dependencies, and is built on Go version `1.11`.
 
 ```sh
-==> go get github.com/northwesternmutual/grammes
+==> go get gsdev.ninja/grammes
 ```
 
 ## Testing
@@ -21,7 +21,7 @@ Grammes unit tests can be run by directing yourself to the root directory for th
 Below is an overview of this project's structure (files are not listed)
 
 ```flat
-github.com/northwesternmutual/grammes
+gsdev.ninja/grammes
   assets/             - Contains images and shell scripts for customizing JanusGraph
   docs/               - Miscellaneous documents and charts to help explain Grammes
   examples/           - Examples of all resources on how to use Grammes
@@ -65,14 +65,14 @@ import (
 
   "go.uber.org/zap"
 
-  "github.com/northwesternmutual/grammes/query/token"
-  "github.com/northwesternmutual/grammes"
+  "gsdev.ninja/grammes/query/token"
+  "gsdev.ninja/grammes"
 )
 ```
 
 ## Making a Change
 
-Before making any significant changes, please [open an issue](https://github.com/northwesternmutual/grammes/issues). Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
+Before making any significant changes, please [open an issue](https://gsdev.ninja/grammes/issues). Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
 
 Once we've discussed your changes and you've got your code ready, make sure that tests are passing (go test) and open your PR. Your pull request is most likely to be accepted if it:
 
@@ -82,7 +82,7 @@ Once we've discussed your changes and you've got your code ready, make sure that
 
 ## License
 
-By contributing your code, you agree to license your contribution under the terms of the [Apache License](https://github.com/northwesternmutual/grammes/blob/master/LICENSE).
+By contributing your code, you agree to license your contribution under the terms of the [Apache License](https://gsdev.ninja/grammes/blob/master/LICENSE).
 
 If you are adding a new file it should have a header like below.
 

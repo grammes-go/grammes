@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"gsdev.ninja/grammes/logging"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/examples/exampleutil"
 	"go.uber.org/zap"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/examples/exampleutil"
 )
 
 var (

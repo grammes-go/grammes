@@ -21,10 +21,10 @@
 package quick
 
 import (
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/query/graph"
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"gsdev.ninja/grammes"
+	"gsdev.ninja/grammes/logging"
+	"gsdev.ninja/grammes/query/graph"
+	"gsdev.ninja/grammes/query/traversal"
 )
 
 // CustomTraversal is have a custom prefix for your

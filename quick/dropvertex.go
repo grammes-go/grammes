@@ -21,7 +21,7 @@
 package quick
 
 import (
-	"github.com/northwesternmutual/grammes/query"
+	"gsdev.ninja/grammes/query"
 )
 
 // DropVertexLabel will search for a vertex with the

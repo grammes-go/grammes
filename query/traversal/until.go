@@ -21,7 +21,7 @@
 package traversal
 
 import (
-	"github.com/northwesternmutual/grammes/query/predicate"
+	"gsdev.ninja/grammes/query/predicate"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#until-step

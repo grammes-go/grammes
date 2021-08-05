@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/model"
+	"gsdev.ninja/grammes/gremconnect"
+	"gsdev.ninja/grammes/model"
 )
 
 var (
